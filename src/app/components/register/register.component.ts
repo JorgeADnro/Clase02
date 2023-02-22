@@ -18,7 +18,7 @@ export class RegisterComponent {
     this.confirmPassword = '';
     this.passwordError = false;
   }
-
+  
   register() {  //Función para evento clic
     console.log('Email: ' + this.email);
     console.log('Password: ' + this.password);
